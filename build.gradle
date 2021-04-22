@@ -10,8 +10,13 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+=======
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+>>>>>>> 3db94a65199b4b6d1e2c628865a6e5140283f525
 }
 
 test {
